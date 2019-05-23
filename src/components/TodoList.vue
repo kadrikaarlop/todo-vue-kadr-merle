@@ -60,7 +60,6 @@
     padding: 10px 18px;
     font-size: 18px;
     margin-bottom: 16px;
-
     &:focus {
         outline:0;
     }

@@ -1,6 +1,8 @@
 <template>
   <div id="app" class="container">
     <img src="./assets/logo.png" class="logo">
+    <Login></Login>
+    <hr/>
     <todo-list></todo-list>
   </div>
 </template>
@@ -8,12 +10,14 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import TodoList from './components/TodoList'
+import Login from './components/Login'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     TodoList,
+    Login
   }
 }
 </script>
